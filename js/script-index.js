@@ -4,6 +4,9 @@ $(document).ready(function(){
   renderHighlightedRecipes(recipesArray);
   $('.js-back').hide();
   $('.js-menu').show();
+  /*
+  *Llamando a función
+  */
 });
 
 function printNews(){
@@ -52,6 +55,7 @@ function renderRecipe(recipe) {
 */
 function renderActivities(activitiesArray) {
   console.log('Activities: ', activitiesArray);
+  
 }
 
 /*
